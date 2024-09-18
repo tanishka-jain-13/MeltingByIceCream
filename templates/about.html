@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block title %}
+    About Us
+{% endblock title %}
+
+{% block content %}
+    <div class="container my-5">
+        <!-- Hero Section -->
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6">
+                <img src="static\img\delicious icecream.jpg" class="img-fluid rounded" alt="Delicious Ice Cream">
+            </div>
+            <div class="col-md-6">
+                <h1 class="display-4">About Us</h1>
+                <p class="lead">Welcome to our ice cream haven! We are dedicated to bringing you the most delectable and innovative flavors of ice cream you've ever tasted.</p>
+            </div>
+        </div>
+        
+        <!-- Our Story Section -->
+        <div class="my-5">
+            <h2 class="display-5">Our Story</h2>
+            <p>Our journey began with a simple passion for crafting the perfect ice cream. From our first batch in a small kitchen to becoming your favorite local ice cream shop, our commitment to quality and creativity has driven us to offer exciting new flavors regularly.</p>
+        </div>
+        
+        <!-- Our Values Section -->
+        <div class="my-5">
+            <h2 class="display-5">Our Values</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="static\img\Quality.jpeg" class="card-img-top" style="height: 400px; object-fit: cover;" alt="Quality Ingredients">
+                        <div class="card-body">
+                            <h5 class="card-title">Quality Ingredients</h5>
+                            <p class="card-text">We use only the finest ingredients to ensure every scoop is rich and delicious.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="static\img\creative flavour.jpg" class="card-img-top" style="height: 400px; object-fit: cover;" alt="Creative Flavors">
+                        <div class="card-body">
+                            <h5 class="card-title">Creative Flavors</h5>
+                            <p class="card-text">Our team constantly experiments to bring new and exciting flavors to your cone.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="static\img\sustainable.jpg" class="card-img-top" style="height: 400px; object-fit: cover;" alt="Sustainability">
+                        <div class="card-body">
+                            <h5 class="card-title">Sustainability</h5>
+                            <p class="card-text">We are committed to sustainable practices and eco-friendly packaging.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

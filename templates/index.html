@@ -1,0 +1,125 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Home
+{% endblock title %}
+
+{% block content %}
+    <div class="container-fluid px-0">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://as1.ftcdn.net/v2/jpg/05/55/52/02/1000_F_555520209_kZC1yPLxqQoGNQRxnIOCVGuXSindKJMj.jpg" class="d-block w-100 "style="height: 500px; object-fit: cover;" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://img.freepik.com/premium-photo/chocolate-vanilla-strawberry-ice-cream-isolated-white_807701-3441.jpg?w=900" class="d-block w-100"style="height: 500px; object-fit: cover;" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="static\img\popsicle.jpeg" class="d-block w-100" style="height: 500px; object-fit: cover;" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class="container my-3">
+        <h1 class="my-4 text-center">Select From Our Range Of Icecreams.</h1>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="static\img\popsicle.jpeg" class="d-block w-100" style="height: 200px; object-fit: cover;" alt="...">
+                <div class="card-body">
+                  <p class="card-text">A refreshing treat made from real fruit juices. Perfect for hot days!</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="static\img\cones.jpg" class="d-block w-100" style="height: 200px; object-fit: cover;" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Crispy and crunchy cones filled with your favorite ice cream flavors.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="static\img\Ice-cream-sundae-hero-11-500x500.jpg" class="d-block w-100" style="height: 200px; object-fit: cover;" alt="...">
+                <div class="card-body">
+                  <p class="card-text">A classic sundae with layers of delicious ice cream, sauce, and toppings.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="static\img\kulfi.jpeg" class="d-block w-100" style="height: 200px; object-fit: cover;" alt="...">
+                <div class="card-body">
+                  <p class="card-text">A traditional Indian frozen dessert made with creamy, flavorful ingredients.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="static\img\faluda1.jpg" class="d-block w-100" style="height: 200px; object-fit: cover;" alt="...">
+                <div class="card-body">
+                  <p class="card-text">A refreshing dessert made with noodles, milk, and various flavors.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="static\img\sherbet.jpg" class="d-block w-100" style="height: 200px; object-fit: cover;" alt="...">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Sherbet</h5>
+                  <p class="card-text">A fruity, refreshing ice cream alternative that's perfect for any occasion.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            
+
+    </div>
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+          <p class="mb-0">© 2024 Ice Cream haven. All rights reserved.</p>
+         
+      </div>
+    </footer>
+    
+{% endblock %}
